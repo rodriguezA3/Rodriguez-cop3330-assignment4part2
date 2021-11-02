@@ -1,0 +1,15 @@
+@startuml
+class App{
+    +FXMLLoader fxmlLoader
+    +Scene scene
+    +TaskSerializer()
+    +ListSerializer()
+}
+
+class AddListController{
+    +FXML Button addListButton
+    +addListHandler()
+}
+
+AddListController <|-- App
+@enduml
