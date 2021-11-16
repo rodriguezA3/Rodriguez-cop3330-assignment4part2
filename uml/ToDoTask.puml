@@ -1,0 +1,15 @@
+@startuml
+class ToDoTask{
+   +private String name;
+   +private LocalDate date;
+   +private String description;
+   +String getName();
+   +setName(String name);
+   +LocalDate getDate();
+   +setDate(LocalDate date);
+   +String getDescription();
+   +setDescription(String description);
+   +ToDoTask(String name, LocalDate date, String description);
+}
+
+@enduml
